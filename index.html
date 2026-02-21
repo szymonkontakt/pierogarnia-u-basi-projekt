@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierogarnia u Basi - Wersja demonstracyjna</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Czcionki Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- 1. NAGŁÓWEK (Logo i Nawigacja) -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-container">
+            <img src="img/logo-basi.png" alt="Pierogarnia u Basi" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO (To co widać na początku - zdjęcie w tle i zachęta) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Najlepsze domowe pierogi w Elblągu</h1>
+            <p>Lepimy z sercem, karmimy ze smakiem.</p>
+            <a href="tel:739133583" class="btn-primary">📞 Zadzwoń i zamów</a>
+        </div>
+    </section>
+
+    <!-- 3. MENU (Najważniejsza część) -->
+    <!-- 3. MENU (Wersja Premium dla Basi) -->
+<section id="menu" class="menu-section">
+    <div class="container">
+        <h2>Nasze Menu</h2>
+        <p class="menu-subtitle">Wersja pokazowa</p>
+        
+        <div class="menu-grid">
+            
+            <!-- KARTA 1: Wytrawne -->
+            <div class="menu-card">
+                <div class="card-header">
+                    <i data-lucide="utensils"></i>
+                    <h3>Pierogi Wytrawne</h3>
+                </div>
+                <ul class="menu-list">
+                    <!-- Bestseller -->
+                    <li class="dish-item bestseller">
+                        <div class="dish-info">
+                            <span class="dish-name">Pierogi Ruskie </span>
+                        </div>
+                        <span class="dish-price">22 zł</span>
+                    </li>
+                    
+                    <li class="dish-item">
+                        <div class="dish-info">
+                            <span class="dish-name">Pierogi z Mięsem</span>
+                        </div>
+                            <span class="dish-price">24 zł</span>
+                    </li>
+                    
+                    <li class="dish-item">
+                        <div class="dish-info">
+                            <span class="dish-name">Z Kapustą i Grzybami</span>
+                        </div>
+                        <span class="dish-price">23 zł</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- KARTA 2: Słodkie -->
+            <div class="menu-card">
+                <div class="card-header">
+                    <i data-lucide="cherry"></i>
+                    <h3>Pierogi Na Słodko</h3>
+                </div>
+                <ul class="menu-list">
+                    <li class="dish-item">
+                        <div class="dish-info">
+                            <span class="dish-name">Z Serem i Wanilią</span>
+                            <span class="dish-desc">Uwielbiane przez dzieci. Słodki twarożek z nutą wanilii.</span>
+                        </div>
+                        <span class="dish-price">20 zł</span>
+                    </li>
+                    
+                    <li class="dish-item">
+                        <div class="dish-info">
+                            <span class="dish-name">Z Jagodami (Sezonowe)</span>
+                            <span class="dish-desc">Pełne słońca i słodkich owoców. Podawane ze śmietaną.</span>
+                        </div>
+                        <span class="dish-price">25 zł</span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- 4. GALERIA (Miejsce na zdjęcia) -->
+    <section id="galeria" class="gallery-section">
+    <div class="container">
+        <h2>Galeria Smaków</h2>
+        <div class="gallery-grid">
+            
+            <!-- Zdjęcie 1: Smażone pierogi (klasyk) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1708782341487-6544f0d9efe8?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smażone pierogi na talerzu">
+            </div>
+
+            <!-- Zdjęcie 2: Lepienie (pokazuje "domową robotę") -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1513862153653-f8b7324e1779?q=80&w=673&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ręczne lepienie pierogów">
+            </div>
+
+            <!-- Zdjęcie 3: Gotowane (jasne ciasto) -->
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1740506871748-e8dddf59524b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pierogi gotowane z wody">
+            </div>
+
+            <!-- Zdjęcie 4: Zbliżenie (apetyczne) -->
+            <div class="gallery-item">
+               <img src="https://plus.unsplash.com/premium_photo-1673769108491-e87f4a72eec7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pyszne domowe pierogi">
+            </div>
+
+            <div class="gallery-item">
+               <img src="https://plus.unsplash.com/premium_photo-1700746098867-29b475283b51?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pyszne domowe pierogi">
+            </div>
+
+            <div class="gallery-item">
+               <img src="https://images.unsplash.com/photo-1764831257619-24aa3930e02d?q=80&w=998&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Pyszne domowe pierogi">
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <!-- 5. KONTAKT I STOPKA -->
+    <footer id="kontakt">
+        <div class="container">
+        
+        <!-- Nagłówek stopki -->
+        <h2 class="footer-title">Znajdź nas</h2>
+        
+        <!-- Dane kontaktowe -->
+        <p class="footer-info"><i data-lucide="map-pin"></i> Elbląg ul. Szarych Szeregów 2G</p>
+        <p class="footer-info"><i data-lucide="phone"></i><a href="tel:739133583"> 739 133 583</a></p>
+        <p class="footer-info"><i data-lucide="clock"></i> Otwarte: Pn-Sb 8:00 - 15:00</p>
+        
+        <!-- Mapa Google (responsywna) -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2334.5906503128745!2d19.40072857665013!3d54.187325172545115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd4bba16e26b51%3A0x5c2d759fe563ffaf!2sPierogarnia%20u%20Basi!5e0!3m2!1sen!2spl!4v1771632247080!5m2!1sen!2spl" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                
+            </iframe>
+        </div>
+        
+        <!-- Prawa autorskie -->
+        <p class="copyright">&copy; 2026 Pierogarnia u Basi | Realizacja: Szymon Szturo</p>
+        </div>
+    </footer>
+<script>
+    lucide.createIcons();
+</script>
+</body>
+</html>
